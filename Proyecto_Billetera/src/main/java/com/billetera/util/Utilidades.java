@@ -1,7 +1,7 @@
 package com.billetera.util;
 import java.util.List;
 public class Utilidades {
-    // CUMPLE REQUISITO: 3 metodos genericos estaticos
+    
     public static <T> void imprimirElemento(T elemento) { 
         System.out.println(elemento); 
     }
