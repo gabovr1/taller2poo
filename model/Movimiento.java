@@ -1,6 +1,5 @@
 package com.billetera.model;
 import java.time.LocalDateTime;
-// CUMPLE REQUISITO: Una clase del dominio que implemente Comparable<T>
 public class Movimiento implements Comparable<Movimiento> {
     private String id;
     private double monto;
